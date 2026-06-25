@@ -1,3 +1,5 @@
+![CI](https://github.com/omartouza/marketing-campaign-analysis/actions/workflows/notebooks-ci.yml/badge.svg)
+
 # Marketing Campaign Analysis
 
 End-to-end marketing analytics project covering customer lifetime value prediction, sentiment analysis, market basket analysis, and campaign performance — built across 6 analytical phases and visualised in an interactive Tableau dashboard.
