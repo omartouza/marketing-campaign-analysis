@@ -1,0 +1,50 @@
+name: notebooks-ci
+
+# Tier 1 check: proves the code installs and parses in a clean environment.
+# It does NOT execute the notebooks — so it needs no PostgreSQL database, no
+# NLTK corpus downloads, and no committed data. It catches the failures that
+# break a fresh clone: a missing dependency, a broken import, or a syntax
+# error anywhere in any notebook.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pinned dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install nbconvert
+
+      - name: Verify the dependency stack imports
+        run: |
+          python -c "import pandas, numpy, matplotlib, seaborn, sklearn, sqlalchemy, mlxtend, nltk, wordcloud; print('dependency stack imports OK')"
+
+      - name: Syntax-check every notebook (no execution, no database needed)
+        run: |
+          set -e
+          found=0
+          for nb in $(find . -name "*.ipynb" -not -path "*/.ipynb_checkpoints/*"); do
+            echo "Checking $nb"
+            jupyter nbconvert --to script --stdout "$nb" > /tmp/notebook_cells.py
+            python -m py_compile /tmp/notebook_cells.py
+            found=$((found+1))
+          done
+          if [ "$found" -eq 0 ]; then
+            echo "No notebooks found — failing so this isn't a silent pass."
+            exit 1
+          fi
+          echo "All $found notebook(s) parsed successfully"

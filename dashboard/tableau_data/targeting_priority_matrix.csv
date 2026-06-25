@@ -1,0 +1,4 @@
+clv_tier,customer_count,avg_spend,avg_response_prob,actual_response_rate,sort_order
+High value,737,1355.4043,0.469,0.251,0
+Mid value,737,415.7313,0.3034,0.1235,1
+Low value,738,51.4228,0.2121,0.0772,2

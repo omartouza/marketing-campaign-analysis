@@ -1,0 +1,4 @@
+Model,Accuracy,AUC-ROC (macro),Negative recall,Neutral recall,Positive recall
+Naive Bayes,0.9349,0.944,0.6066,0.2026,0.9928
+Logistic Regression,0.8946,0.9403,0.8098,0.7137,0.9092
+Linear SVC,0.9523,0.9431,0.7016,0.4581,0.9933

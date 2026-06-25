@@ -1,0 +1,123 @@
+rule,Low value,Mid value,High value
+Fish → Fruits,1.6409,1.5116,1.2795
+"Fish → Fruits, Gold",1.7991,,
+"Fish → Fruits, Meat",,1.6574,
+"Fish → Fruits, Sweets",,1.6014,
+Fish → Gold,1.4465,,
+Fish → Meat,1.2218,1.4073,1.2136
+"Fish → Meat, Sweets",,1.617,
+Fish → Sweets,1.5648,1.4899,1.3078
+"Fish, Fruits → Gold",1.6341,,1.2427
+"Fish, Fruits → Meat",1.28,1.4759,
+"Fish, Fruits → Meat, Sweets",,1.7829,
+"Fish, Fruits → Sweets",1.6182,1.6038,1.4008
+"Fish, Fruits, Gold → Meat",,1.5163,
+"Fish, Fruits, Gold → Sweets",,1.6612,
+"Fish, Fruits, Meat → Gold",,1.2095,
+"Fish, Fruits, Meat → Sweets",,1.684,
+"Fish, Fruits, Sweets → Gold",,1.2193,
+"Fish, Fruits, Sweets → Meat",,1.5497,
+"Fish, Gold → Fruits",1.8538,1.5924,1.3713
+"Fish, Gold → Fruits, Meat",,1.7939,
+"Fish, Gold → Fruits, Sweets",,1.7474,
+"Fish, Gold → Meat",,1.4875,
+"Fish, Gold → Meat, Sweets",,1.8318,
+"Fish, Gold → Sweets",1.6833,1.6112,1.2814
+"Fish, Gold, Meat → Fruits",,1.6232,
+"Fish, Gold, Meat → Sweets",,1.7167,
+"Fish, Gold, Sweets → Fruits",,1.6419,
+"Fish, Gold, Sweets → Meat",,1.5849,
+"Fish, Meat → Fruits",1.719,1.5853,1.2393
+"Fish, Meat → Fruits, Sweets",,1.7635,
+"Fish, Meat → Gold",1.4136,,
+"Fish, Meat → Sweets",1.6163,1.6018,1.2552
+"Fish, Meat, Sweets → Fruits",,1.6667,
+"Fish, Meat, Sweets → Gold",,1.2659,
+"Fish, Sweets → Fruits",1.6969,1.6272,1.3705
+"Fish, Sweets → Fruits, Meat",,1.8733,
+"Fish, Sweets → Gold",1.5561,1.2084,
+"Fish, Sweets → Meat",1.262,1.5129,
+"Fish, Wines → Fruits",,1.4775,
+"Fish, Wines → Meat",,1.6823,
+"Fish, Wines → Sweets",,1.4038,
+Fruits → Fish,1.6409,1.5116,1.2795
+"Fruits → Fish, Gold",1.8538,,
+"Fruits → Fish, Meat",,1.5853,
+"Fruits → Fish, Sweets",,1.6272,
+Fruits → Gold,1.4904,,
+"Fruits → Gold, Sweets",1.8237,,
+Fruits → Meat,1.2573,1.3461,
+"Fruits → Meat, Sweets",,1.5713,
+Fruits → Sweets,1.6372,1.5139,1.2697
+"Fruits, Gold → Fish",1.7991,1.5639,1.4161
+"Fruits, Gold → Fish, Meat",,1.685,
+"Fruits, Gold → Fish, Sweets",,1.7436,
+"Fruits, Gold → Meat",1.2719,1.4531,
+"Fruits, Gold → Meat, Sweets",,1.7989,
+"Fruits, Gold → Sweets",1.74,1.6262,1.2611
+"Fruits, Gold, Meat → Fish",,1.6319,
+"Fruits, Gold, Meat → Sweets",,1.7258,
+"Fruits, Gold, Sweets → Fish",,1.5975,
+"Fruits, Gold, Sweets → Meat",,1.542,
+"Fruits, Meat → Fish",1.6705,1.6574,1.2936
+"Fruits, Meat → Fish, Sweets",,1.8733,
+"Fruits, Meat → Gold",1.5077,1.2283,
+"Fruits, Meat → Gold, Sweets",,1.7802,
+"Fruits, Meat → Sweets",1.6769,1.6273,1.2814
+"Fruits, Meat, Sweets → Fish",,1.7152,
+"Fruits, Meat, Sweets → Gold",,1.3027,
+"Fruits, Sweets → Fish",1.6218,1.6014,1.4116
+"Fruits, Sweets → Fish, Meat",,1.7635,
+"Fruits, Sweets → Gold",1.584,1.2223,
+"Fruits, Sweets → Meat",1.2878,1.4469,
+"Fruits, Wines → Fish",,1.4823,
+"Fruits, Wines → Meat",,1.6078,
+"Fruits, Wines → Sweets",,1.4443,
+Gold → Fish,1.4465,,
+Gold → Fruits,1.4904,,
+Gold → Meat,1.2171,,
+Gold → Sweets,1.4221,,
+"Gold, Meat → Fish",1.419,1.3899,1.3586
+"Gold, Meat → Fish, Fruits",,1.4926,
+"Gold, Meat → Fish, Sweets",,1.6015,
+"Gold, Meat → Fruits",1.5575,1.3825,
+"Gold, Meat → Fruits, Sweets",,1.576,
+"Gold, Meat → Sweets",1.4734,1.5235,
+"Gold, Meat → Wines",,1.2209,
+"Gold, Meat, Sweets → Fish",,1.5662,
+"Gold, Meat, Sweets → Fruits",,1.5661,
+"Gold, Sweets → Fish",1.7123,1.5119,1.4244
+"Gold, Sweets → Fish, Fruits",,1.6422,
+"Gold, Sweets → Fish, Meat",,1.7028,
+"Gold, Sweets → Fruits",1.8237,1.554,1.3575
+"Gold, Sweets → Fruits, Meat",,1.7802,
+"Gold, Sweets → Meat",1.2611,1.5301,
+"Gold, Wines → Meat",1.4465,1.3676,
+Meat → Fish,,1.4073,1.2136
+"Meat → Fish, Fruits",,1.4759,
+"Meat → Fish, Sweets",,1.5129,
+Meat → Fruits,1.2573,1.3461,
+"Meat → Fruits, Sweets",,1.4469,
+Meat → Gold,1.2171,,
+Meat → Sweets,1.2492,1.394,
+Meat → Wines,1.2717,1.2293,
+"Meat, Sweets → Fish",1.5809,1.617,1.3131
+"Meat, Sweets → Fish, Fruits",,1.7829,
+"Meat, Sweets → Fish, Gold",,1.8318,
+"Meat, Sweets → Fruits",1.6879,1.5713,1.2843
+"Meat, Sweets → Gold",1.4356,1.307,
+"Meat, Wines → Fish",,1.3248,
+"Meat, Wines → Fruits",,1.2621,
+"Meat, Wines → Sweets",,1.3301,
+Sweets → Fish,1.5648,1.4899,1.3078
+"Sweets → Fish, Fruits",,1.6038,
+"Sweets → Fish, Meat",,1.6018,
+Sweets → Fruits,1.6372,1.5139,1.2697
+"Sweets → Fruits, Gold",1.74,,
+"Sweets → Fruits, Meat",,1.6273,
+Sweets → Gold,1.4221,,
+Sweets → Meat,1.2492,1.394,
+"Sweets, Wines → Fish",,1.4493,
+"Sweets, Wines → Fruits",,1.4863,
+"Sweets, Wines → Meat",,1.7438,
+Wines → Meat,1.2717,1.2293,

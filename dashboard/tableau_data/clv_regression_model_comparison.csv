@@ -1,0 +1,5 @@
+model,mae,rmse,r2
+Baseline (mean),505.0,583.1,-0.0043
+Linear Regression,223.34,319.21,0.699
+Random Forest,162.62,253.53,0.8101
+Gradient Boosting,177.59,265.15,0.7923

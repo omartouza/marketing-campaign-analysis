@@ -1,0 +1,4 @@
+model,accuracy,auc_roc,negative_recall,neutral_recall,positive_recall
+Naive Bayes,0.9289,0.9282,0.5672,0.1278,0.9924
+Logistic Regression,0.8919,0.9306,0.8525,0.6432,0.9068
+Linear SVC,0.9464,0.9264,0.6984,0.3524,0.9922

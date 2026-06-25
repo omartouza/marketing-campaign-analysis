@@ -1,0 +1,17 @@
+feature,importance,model
+income,0.7666798849863292,Random Forest
+tenure_days,0.0732457158341145,Random Forest
+total_hist_campaigns_accepted,0.029031297162173397,Random Forest
+total_children,0.028025923159783504,Random Forest
+recency,0.02472840644293468,Random Forest
+age,0.023781447876020923,Random Forest
+num_web_visits_month,0.01825495513674237,Random Forest
+has_children,0.014724538201875283,Random Forest
+edu_Graduation,0.0035650633731765455,Random Forest
+edu_PhD,0.0031780376931265387,Random Forest
+marital_Together,0.0030620475834826624,Random Forest
+edu_Master,0.0030517884591110666,Random Forest
+marital_Married,0.002734281130977578,Random Forest
+edu_Undergraduate,0.0024711126639718117,Random Forest
+marital_Single,0.0021617700006746733,Random Forest
+marital_Widow,0.0013037302955052285,Random Forest

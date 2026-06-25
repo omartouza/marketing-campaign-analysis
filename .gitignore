@@ -1,0 +1,24 @@
+# Raw data — licensed datasets, not redistributed. See README for download steps.
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Tableau temp/lock files
+.~*.twb*
+*.twbr
+
+# macOS
+.DS_Store

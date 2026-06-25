@@ -1,0 +1,5 @@
+model,recall_respond,recall_not_respond,accuracy,auc_roc
+Baseline (random),0.1493,0.8457,0.7404,0.4975
+Logistic Regression,0.806,0.8005,0.8014,0.8833
+Random Forest,0.3284,0.9787,0.8804,0.8656
+Gradient Boosting,0.7164,0.8537,0.833,0.8765

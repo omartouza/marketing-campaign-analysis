@@ -1,0 +1,7 @@
+campaign_name,sort_order,acceptance_rate_pct,breakeven_revenue_cost_ratio,net_profit_conservative,net_profit_moderate,net_profit_optimistic
+Campaign 1,1,6.42,15.58,-3.72,-1.07,1.21
+Campaign 2,2,1.36,73.73,-4.73,-2.59,-1.32
+Campaign 3,3,7.37,13.57,-3.53,-0.79,1.68
+Campaign 4,4,7.41,13.49,-3.52,-0.78,1.71
+Campaign 5,5,7.28,13.74,-3.54,-0.82,1.64
+Latest Campaign,6,15.05,6.64,-1.99,1.52,5.53

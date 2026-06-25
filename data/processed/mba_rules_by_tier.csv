@@ -1,0 +1,123 @@
+antecedents,consequents,Low value lift,Mid value lift,High value lift
+"Fruits, Gold",Fish,1.8,1.56,1.42
+"Gold, Sweets",Fish,1.71,1.51,1.42
+"Fruits, Sweets",Fish,1.62,1.6,1.41
+"Fish, Fruits",Sweets,1.62,1.6,1.4
+"Fish, Gold",Fruits,1.85,1.59,1.37
+"Fish, Sweets",Fruits,1.7,1.63,1.37
+"Gold, Sweets",Fruits,1.82,1.55,1.36
+"Gold, Meat",Fish,1.42,1.39,1.36
+"Meat, Sweets",Fish,1.58,1.62,1.31
+Sweets,Fish,1.56,1.49,1.31
+Fish,Sweets,1.56,1.49,1.31
+"Fruits, Meat",Fish,1.67,1.66,1.29
+Fruits,Fish,1.64,1.51,1.28
+Fish,Fruits,1.64,1.51,1.28
+"Fruits, Meat",Sweets,1.68,1.63,1.28
+"Meat, Sweets",Fruits,1.69,1.57,1.28
+"Fish, Gold",Sweets,1.68,1.61,1.28
+Fruits,Sweets,1.64,1.51,1.27
+Sweets,Fruits,1.64,1.51,1.27
+"Fish, Meat",Sweets,1.62,1.6,1.26
+"Fruits, Gold",Sweets,1.74,1.63,1.26
+"Fish, Meat",Fruits,1.72,1.59,1.24
+"Fish, Fruits",Gold,1.63,,1.24
+Fish,Meat,1.22,1.41,1.21
+Meat,Fish,,1.41,1.21
+"Fish, Meat","Fruits, Sweets",,1.76,
+Fruits,"Fish, Sweets",,1.63,
+"Fruits, Meat, Sweets",Fish,,1.72,
+Meat,Fruits,1.26,1.35,
+"Fish, Gold","Meat, Sweets",,1.83,
+"Meat, Wines",Fish,,1.32,
+"Fish, Fruits","Meat, Sweets",,1.78,
+"Fruits, Wines",Sweets,,1.44,
+"Fruits, Gold, Meat",Sweets,,1.73,
+"Fruits, Gold, Sweets",Fish,,1.6,
+Fruits,"Gold, Sweets",1.82,,
+"Fruits, Gold","Meat, Sweets",,1.8,
+"Fish, Fruits, Gold",Meat,,1.52,
+Fish,Gold,1.45,,
+"Meat, Wines",Fruits,,1.26,
+"Meat, Sweets","Fish, Gold",,1.83,
+Fish,"Fruits, Sweets",,1.6,
+Sweets,"Fruits, Meat",,1.63,
+"Fish, Gold, Sweets",Meat,,1.58,
+"Fish, Gold, Sweets",Fruits,,1.64,
+"Fish, Gold","Fruits, Meat",,1.79,
+"Fish, Fruits, Meat",Gold,,1.21,
+"Fish, Gold, Meat",Sweets,,1.72,
+"Gold, Meat",Fruits,1.56,1.38,
+Sweets,"Fish, Meat",,1.6,
+Fruits,Gold,1.49,,
+"Fruits, Gold, Sweets",Meat,,1.54,
+"Fish, Fruits, Sweets",Gold,,1.22,
+Gold,Sweets,1.42,,
+Sweets,Meat,1.25,1.39,
+"Fruits, Meat",Gold,1.51,1.23,
+"Fish, Gold",Meat,,1.49,
+"Fruits, Meat","Fish, Sweets",,1.87,
+"Fish, Sweets","Fruits, Meat",,1.87,
+"Fruits, Wines",Fish,,1.48,
+"Fish, Fruits",Meat,1.28,1.48,
+"Fruits, Gold, Meat",Fish,,1.63,
+"Fish, Fruits, Meat",Sweets,,1.68,
+"Fish, Meat, Sweets",Fruits,,1.67,
+Fish,"Meat, Sweets",,1.62,
+"Fish, Sweets",Meat,1.26,1.51,
+Meat,"Fish, Sweets",,1.51,
+"Sweets, Wines",Fish,,1.45,
+"Fruits, Gold","Fish, Meat",,1.68,
+"Fruits, Sweets",Gold,1.58,1.22,
+"Fruits, Gold",Meat,1.27,1.45,
+"Gold, Wines",Meat,1.45,1.37,
+"Fruits, Meat","Gold, Sweets",,1.78,
+"Fruits, Wines",Meat,,1.61,
+Fruits,"Meat, Sweets",,1.57,
+Gold,Fish,1.45,,
+"Fish, Wines",Sweets,,1.4,
+"Sweets, Wines",Meat,,1.74,
+"Sweets, Wines",Fruits,,1.49,
+Meat,Wines,1.27,1.23,
+Fish,"Fruits, Meat",,1.66,
+"Gold, Meat","Fish, Sweets",,1.6,
+"Fish, Gold, Meat",Fruits,,1.62,
+"Fish, Fruits, Gold",Sweets,,1.66,
+Gold,Meat,1.22,,
+Gold,Fruits,1.49,,
+Meat,Gold,1.22,,
+"Meat, Sweets",Gold,1.44,1.31,
+Meat,"Fruits, Sweets",,1.45,
+"Gold, Sweets","Fish, Fruits",,1.64,
+Fruits,"Fish, Meat",,1.59,
+Meat,"Fish, Fruits",,1.48,
+Fruits,Meat,1.26,1.35,
+"Fish, Fruits, Sweets",Meat,,1.55,
+"Gold, Sweets","Fruits, Meat",,1.78,
+Meat,Sweets,1.25,1.39,
+"Fruits, Meat, Sweets",Gold,,1.3,
+"Gold, Sweets","Fish, Meat",,1.7,
+Wines,Meat,1.27,1.23,
+"Gold, Sweets",Meat,1.26,1.53,
+"Fish, Wines",Meat,,1.68,
+"Fruits, Sweets","Fish, Meat",,1.76,
+"Fish, Wines",Fruits,,1.48,
+Fruits,"Fish, Gold",1.85,,
+"Fruits, Sweets",Meat,1.29,1.45,
+"Gold, Meat","Fruits, Sweets",,1.58,
+Sweets,Gold,1.42,,
+"Meat, Wines",Sweets,,1.33,
+"Gold, Meat, Sweets",Fish,,1.57,
+"Gold, Meat","Fish, Fruits",,1.49,
+Sweets,"Fruits, Gold",1.74,,
+"Fish, Gold","Fruits, Sweets",,1.75,
+"Gold, Meat",Sweets,1.47,1.52,
+Sweets,"Fish, Fruits",,1.6,
+"Fish, Meat, Sweets",Gold,,1.27,
+"Fish, Sweets",Gold,1.56,1.21,
+Fish,"Fruits, Gold",1.8,,
+"Meat, Sweets","Fish, Fruits",,1.78,
+"Fish, Meat",Gold,1.41,,
+"Gold, Meat, Sweets",Fruits,,1.57,
+"Gold, Meat",Wines,,1.22,
+"Fruits, Gold","Fish, Sweets",,1.74,
