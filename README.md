@@ -233,7 +233,16 @@ All stochastic operations use a fixed seed (`RANDOM_STATE = 42`): the train/test
    4. `04_clv_prediction.ipynb`
    5. `05_sentiment_analysis.ipynb` — downloads NLTK corpora at runtime (needs internet on first run)
    6. `06_market_basket_analysis.ipynb`
-5. Open the Tableau workbook in `dashboard/` to explore the views locally, or use the live dashboard link above.
+5. Regenerate the dashboard data (requires the database from step 3–4). Each script reads from `marketing_db` and writes CSVs to `dashboard/tableau_data/`:
+   ```bash
+   python scripts/export_tableau_page1.py   # Campaign performance
+   python scripts/export_tableau_page2.py   # CLV & targeting (re-trains the Phase 4 models)
+   python scripts/export_tableau_page3.py   # Sentiment (re-trains the Phase 5 models)
+   python scripts/export_tableau_page4.py   # Market basket
+   python scripts/export_mba_pairs_only.py  # Pair-only basket rules
+   ```
+   The page2 and page3 scripts re-train the same seeded models as the Phase 4/5 notebooks, so their outputs match the notebook results.
+6. Open `dashboard/dashboard_marketing_campaign_analysis.twbx` to explore the views locally, or use the live dashboard link above.
 
 ---
 
@@ -252,8 +261,14 @@ marketing-campaign-analysis/
 │   ├── 05_sentiment_analysis.ipynb
 │   └── 06_market_basket_analysis.ipynb
 ├── sql/
-│   └── queries/                # All SQL queries saved as .sql files
-├── dashboard/                  # Tableau workbook + data exports
+│   ├── queries/                # All SQL queries saved as .sql files
+│   └── schema/                 # Database schema definition
+├── scripts/                    # Standalone scripts that export PostgreSQL results to dashboard CSVs
+│   ├── export_tableau_page1.py … page4.py
+│   └── export_mba_pairs_only.py
+├── dashboard/
+│   ├── dashboard_marketing_campaign_analysis.twbx
+│   └── tableau_data/           # CSV exports the dashboard reads
 ├── docs/                       # Charts and visualisation exports
 ├── reports/                    # One PDF report per phase
 ├── requirements.txt
