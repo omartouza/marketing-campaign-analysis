@@ -8,12 +8,15 @@ Run: python3 export_tableau_page4.py
 import os
 import getpass
 import pandas as pd
+from pathlib import Path
 import numpy as np
 from sqlalchemy import create_engine, text
 from mlxtend.frequent_patterns import apriori, association_rules
 
-PROJECT_ROOT = os.path.expanduser('~/Desktop/marketing-campaign-analysis')
-TABLEAU_PATH = os.path.join(PROJECT_ROOT, 'dashboard', 'tableau_data')
+# Anchor to this script's own location so it runs from any working directory.
+# scripts/ sits one level below the repo root.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+TABLEAU_PATH = str(PROJECT_ROOT / 'dashboard' / 'tableau_data')
 os.makedirs(TABLEAU_PATH, exist_ok=True)
 
 username = getpass.getuser()

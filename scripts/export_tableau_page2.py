@@ -10,6 +10,7 @@ import os
 import getpass
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from sqlalchemy import create_engine, text
 
 from sklearn.model_selection import train_test_split
@@ -26,8 +27,10 @@ from sklearn.metrics import (
 )
 from sklearn.utils.class_weight import compute_sample_weight
 
-PROJECT_ROOT = os.path.expanduser('~/Desktop/marketing-campaign-analysis')
-TABLEAU_PATH = os.path.join(PROJECT_ROOT, 'dashboard', 'tableau_data')
+# Anchor to this script's own location so it runs from any working directory.
+# scripts/ sits one level below the repo root.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+TABLEAU_PATH = str(PROJECT_ROOT / 'dashboard' / 'tableau_data')
 os.makedirs(TABLEAU_PATH, exist_ok=True)
 
 username = getpass.getuser()

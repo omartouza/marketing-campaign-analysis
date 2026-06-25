@@ -1,5 +1,3 @@
-![CI](https://github.com/omartouza/marketing-campaign-analysis/actions/workflows/notebooks-ci.yml/badge.svg)
-
 # Marketing Campaign Analysis
 
 End-to-end marketing analytics project covering customer lifetime value prediction, sentiment analysis, market basket analysis, and campaign performance — built across 6 analytical phases and visualised in an interactive Tableau dashboard.
@@ -79,7 +77,7 @@ Built in Tableau Public — 4 interactive pages with filters and highlighters.
 **Dataset 2 — Amazon Product Reviews**
 - 28,332 raw reviews (25,673 after cleaning)
 - Review text, star rating, product category (`Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv`)
-- Source: Datafiniti Amazon Consumer Reviews (May 2019 release) — *https://www.kaggle.com/datasets/yasserh/amazon-product-reviews-dataset*
+- Source: Datafiniti Amazon Consumer Reviews (May 2019 release) — *add exact dataset link*
 - Used in: Phase 5 only
 
 ---
@@ -160,12 +158,12 @@ NLP text classification on Amazon reviews using TF-IDF (unigrams + bigrams, max 
 
 | Model | Accuracy | AUC-ROC (macro) | Neg recall | Neu recall | Pos recall |
 |---|---|---|---|---|---|
-| Naive Bayes | 0.935 | 0.944 | 0.607 | 0.203 | 0.993 |
-| **Logistic Regression** | **0.895** | **0.940** | **0.810** | **0.714** | **0.909** |
-| Linear SVC | 0.952 | 0.943 | 0.702 | 0.458 | 0.993 |
+| Naive Bayes | 0.930 | 0.938 | 0.580 | 0.137 | 0.992 |
+| **Logistic Regression** | **0.895** | **0.936** | **0.813** | **0.723** | **0.909** |
+| Linear SVC | 0.948 | 0.937 | 0.728 | 0.361 | 0.991 |
 
 **Selected model: Logistic Regression.**
-Selection prioritises recall on the Negative (complaint) class — the business-critical class for review sentiment. Logistic Regression catches 81% of negative reviews (247 of 305) versus Linear SVC's 70% (214) — ~33 more complaints caught — and handles the hard Neutral class far better (0.714 vs 0.458). Linear SVC has the highest accuracy, but on data that is 90% Positive, accuracy rewards competence on the easy majority class — exactly the trap recall-first selection avoids.
+Selection prioritises recall on the Negative (complaint) class — the business-critical class for review sentiment. Logistic Regression catches 81% of negative reviews (248 of 305) versus Linear SVC's 73% (222) — ~26 more complaints caught — and handles the hard Neutral class far better (0.723 vs 0.361). Linear SVC has the highest accuracy, but on data that is 90% Positive, accuracy rewards competence on the easy majority class — exactly the trap recall-first selection avoids.
 
 **Key findings:**
 - Battery performance is a top signal across all three sentiment classes

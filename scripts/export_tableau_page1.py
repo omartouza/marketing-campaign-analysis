@@ -12,11 +12,14 @@ Connects to the same local PostgreSQL marketing_db used throughout the project
 import os
 import getpass
 import pandas as pd
+from pathlib import Path
 from sqlalchemy import create_engine, text
 
 # --- Setup (self-contained — no dependency on any notebook kernel) ---
-PROJECT_ROOT = os.path.expanduser('~/Desktop/marketing-campaign-analysis')
-TABLEAU_PATH = os.path.join(PROJECT_ROOT, 'data', 'tableau')
+# Anchor to this script's own location so it runs from any working directory.
+# scripts/ sits one level below the repo root.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+TABLEAU_PATH = str(PROJECT_ROOT / 'dashboard' / 'tableau_data')
 os.makedirs(TABLEAU_PATH, exist_ok=True)
 
 username = getpass.getuser()

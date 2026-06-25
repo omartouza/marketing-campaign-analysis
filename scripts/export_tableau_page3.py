@@ -10,6 +10,7 @@ import re
 import getpass
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from sqlalchemy import create_engine, text
 
 import nltk
@@ -26,8 +27,10 @@ from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import confusion_matrix, accuracy_score, roc_auc_score, recall_score
 from sklearn.preprocessing import label_binarize
 
-PROJECT_ROOT = os.path.expanduser('~/Desktop/marketing-campaign-analysis')
-TABLEAU_PATH = os.path.join(PROJECT_ROOT, 'dashboard', 'tableau_data')
+# Anchor to this script's own location so it runs from any working directory.
+# scripts/ sits one level below the repo root.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+TABLEAU_PATH = str(PROJECT_ROOT / 'dashboard' / 'tableau_data')
 os.makedirs(TABLEAU_PATH, exist_ok=True)
 
 nltk.download('stopwords', quiet=True)
@@ -85,7 +88,7 @@ print('✅ sentiment_rating_profile.csv')
 reviews = run_query('''
     SELECT review_text, rating, sentiment, product_name, category
     FROM reviews WHERE review_text IS NOT NULL AND TRIM(review_text) != ''
-    ORDER BY RANDOM()
+    ORDER BY md5(review_text || COALESCE(review_title, '') || COALESCE(product_name, ''))
 ''')
 for col in ['review_text', 'sentiment', 'product_name', 'category']:
     reviews[col] = reviews[col].astype(str).fillna('').astype(object)

@@ -1,12 +1,12 @@
 clv_tier,antecedents_str,consequents_str,rule,support,confidence,lift
-Low value,Fruits,"Fish, Gold","Fruits → Fish, Gold",0.21,0.5049,1.8538
 Low value,"Fish, Gold",Fruits,"Fish, Gold → Fruits",0.21,0.7711,1.8538
-Low value,Fruits,"Gold, Sweets","Fruits → Gold, Sweets",0.2087,0.5016,1.8237
+Low value,Fruits,"Fish, Gold","Fruits → Fish, Gold",0.21,0.5049,1.8538
 Low value,"Gold, Sweets",Fruits,"Gold, Sweets → Fruits",0.2087,0.7586,1.8237
-Low value,Fish,"Fruits, Gold","Fish → Fruits, Gold",0.21,0.529,1.7991
+Low value,Fruits,"Gold, Sweets","Fruits → Gold, Sweets",0.2087,0.5016,1.8237
 Low value,"Fruits, Gold",Fish,"Fruits, Gold → Fish",0.21,0.7143,1.7991
-Low value,Sweets,"Fruits, Gold","Sweets → Fruits, Gold",0.2087,0.5116,1.74
+Low value,Fish,"Fruits, Gold","Fish → Fruits, Gold",0.21,0.529,1.7991
 Low value,"Fruits, Gold",Sweets,"Fruits, Gold → Sweets",0.2087,0.7097,1.74
+Low value,Sweets,"Fruits, Gold","Sweets → Fruits, Gold",0.2087,0.5116,1.74
 Low value,"Fish, Meat",Fruits,"Fish, Meat → Fruits",0.1734,0.7151,1.719
 Low value,"Gold, Sweets",Fish,"Gold, Sweets → Fish",0.187,0.6798,1.7123
 Low value,"Fish, Sweets",Fruits,"Fish, Sweets → Fruits",0.1789,0.7059,1.6969
@@ -14,8 +14,8 @@ Low value,"Meat, Sweets",Fruits,"Meat, Sweets → Fruits",0.1789,0.7021,1.6879
 Low value,"Fish, Gold",Sweets,"Fish, Gold → Sweets",0.187,0.6866,1.6833
 Low value,"Fruits, Meat",Sweets,"Fruits, Meat → Sweets",0.1789,0.6839,1.6769
 Low value,"Fruits, Meat",Fish,"Fruits, Meat → Fish",0.1734,0.6632,1.6705
-Low value,Fish,Fruits,Fish → Fruits,0.271,0.6826,1.6409
 Low value,Fruits,Fish,Fruits → Fish,0.271,0.6515,1.6409
+Low value,Fish,Fruits,Fish → Fruits,0.271,0.6826,1.6409
 Low value,Fruits,Sweets,Fruits → Sweets,0.2778,0.6678,1.6372
 Low value,Sweets,Fruits,Sweets → Fruits,0.2778,0.6811,1.6372
 Low value,"Fish, Fruits",Gold,"Fish, Fruits → Gold",0.21,0.775,1.6341
@@ -24,8 +24,8 @@ Low value,"Fish, Fruits",Sweets,"Fish, Fruits → Sweets",0.1789,0.66,1.6182
 Low value,"Fish, Meat",Sweets,"Fish, Meat → Sweets",0.1599,0.6592,1.6163
 Low value,"Fruits, Sweets",Gold,"Fruits, Sweets → Gold",0.2087,0.7512,1.584
 Low value,"Meat, Sweets",Fish,"Meat, Sweets → Fish",0.1599,0.6277,1.5809
-Low value,Fish,Sweets,Fish → Sweets,0.2534,0.6382,1.5648
 Low value,Sweets,Fish,Sweets → Fish,0.2534,0.6213,1.5648
+Low value,Fish,Sweets,Fish → Sweets,0.2534,0.6382,1.5648
 Low value,"Gold, Meat",Fruits,"Gold, Meat → Fruits",0.187,0.6479,1.5575
 Low value,"Fish, Sweets",Gold,"Fish, Sweets → Gold",0.187,0.738,1.5561
 Low value,"Fruits, Meat",Gold,"Fruits, Meat → Gold",0.187,0.715,1.5077
@@ -43,8 +43,8 @@ Low value,"Fish, Meat",Gold,"Fish, Meat → Gold",0.1626,0.6704,1.4136
 Low value,"Fruits, Sweets",Meat,"Fruits, Sweets → Meat",0.1789,0.6439,1.2878
 Low value,"Fish, Fruits",Meat,"Fish, Fruits → Meat",0.1734,0.64,1.28
 Low value,"Fruits, Gold",Meat,"Fruits, Gold → Meat",0.187,0.6359,1.2719
-Low value,Wines,Meat,Wines → Meat,0.3076,0.6359,1.2717
 Low value,Meat,Wines,Meat → Wines,0.3076,0.6152,1.2717
+Low value,Wines,Meat,Wines → Meat,0.3076,0.6359,1.2717
 Low value,"Fish, Sweets",Meat,"Fish, Sweets → Meat",0.1599,0.631,1.262
 Low value,"Gold, Sweets",Meat,"Gold, Sweets → Meat",0.1734,0.6305,1.2611
 Low value,Fruits,Meat,Fruits → Meat,0.2615,0.6287,1.2573
@@ -52,12 +52,12 @@ Low value,Meat,Fruits,Meat → Fruits,0.2615,0.523,1.2573
 Low value,Sweets,Meat,Sweets → Meat,0.2547,0.6246,1.2492
 Low value,Meat,Sweets,Meat → Sweets,0.2547,0.5095,1.2492
 Low value,Fish,Meat,Fish → Meat,0.2425,0.6109,1.2218
-Low value,Gold,Meat,Gold → Meat,0.2886,0.6086,1.2171
 Low value,Meat,Gold,Meat → Gold,0.2886,0.5772,1.2171
-Mid value,"Fish, Sweets","Fruits, Meat","Fish, Sweets → Fruits, Meat",0.2144,0.61,1.8733
+Low value,Gold,Meat,Gold → Meat,0.2886,0.6086,1.2171
 Mid value,"Fruits, Meat","Fish, Sweets","Fruits, Meat → Fish, Sweets",0.2144,0.6583,1.8733
-Mid value,"Meat, Sweets","Fish, Gold","Meat, Sweets → Fish, Gold",0.1642,0.5021,1.8318
+Mid value,"Fish, Sweets","Fruits, Meat","Fish, Sweets → Fruits, Meat",0.2144,0.61,1.8733
 Mid value,"Fish, Gold","Meat, Sweets","Fish, Gold → Meat, Sweets",0.1642,0.599,1.8318
+Mid value,"Meat, Sweets","Fish, Gold","Meat, Sweets → Fish, Gold",0.1642,0.5021,1.8318
 Mid value,"Fruits, Gold","Meat, Sweets","Fruits, Gold → Meat, Sweets",0.1628,0.5882,1.7989
 Mid value,"Fish, Gold","Fruits, Meat","Fish, Gold → Fruits, Meat",0.1601,0.5842,1.7939
 Mid value,"Meat, Sweets","Fish, Fruits","Meat, Sweets → Fish, Fruits",0.2144,0.6556,1.7829
@@ -78,8 +78,8 @@ Mid value,"Fish, Fruits, Meat",Sweets,"Fish, Fruits, Meat → Sweets",0.2144,0.8
 Mid value,"Fish, Wines",Meat,"Fish, Wines → Meat",0.1967,0.8286,1.6823
 Mid value,"Fish, Meat, Sweets",Fruits,"Fish, Meat, Sweets → Fruits",0.2144,0.8187,1.6667
 Mid value,"Fish, Fruits, Gold",Sweets,"Fish, Fruits, Gold → Sweets",0.1696,0.7911,1.6612
-Mid value,"Fruits, Meat",Fish,"Fruits, Meat → Fish",0.2673,0.8208,1.6574
 Mid value,Fish,"Fruits, Meat","Fish → Fruits, Meat",0.2673,0.5397,1.6574
+Mid value,"Fruits, Meat",Fish,"Fruits, Meat → Fish",0.2673,0.8208,1.6574
 Mid value,"Gold, Sweets","Fish, Fruits","Gold, Sweets → Fish, Fruits",0.1696,0.6039,1.6422
 Mid value,"Fish, Gold, Sweets",Fruits,"Fish, Gold, Sweets → Fruits",0.1696,0.8065,1.6419
 Mid value,"Fruits, Gold, Meat",Fish,"Fruits, Gold, Meat → Fish",0.1601,0.8082,1.6319
@@ -89,8 +89,8 @@ Mid value,Fruits,"Fish, Sweets","Fruits → Fish, Sweets",0.2809,0.5718,1.6272
 Mid value,"Fish, Sweets",Fruits,"Fish, Sweets → Fruits",0.2809,0.7992,1.6272
 Mid value,"Fruits, Gold",Sweets,"Fruits, Gold → Sweets",0.2144,0.7745,1.6262
 Mid value,"Fish, Gold, Meat",Fruits,"Fish, Gold, Meat → Fruits",0.1601,0.7973,1.6232
-Mid value,"Meat, Sweets",Fish,"Meat, Sweets → Fish",0.2619,0.8008,1.617
 Mid value,Fish,"Meat, Sweets","Fish → Meat, Sweets",0.2619,0.5288,1.617
+Mid value,"Meat, Sweets",Fish,"Meat, Sweets → Fish",0.2619,0.8008,1.617
 Mid value,"Fish, Gold",Sweets,"Fish, Gold → Sweets",0.2103,0.7673,1.6112
 Mid value,"Fruits, Wines",Meat,"Fruits, Wines → Meat",0.1859,0.7919,1.6078
 Mid value,Sweets,"Fish, Fruits","Sweets → Fish, Fruits",0.2809,0.5897,1.6038
@@ -106,8 +106,8 @@ Mid value,"Fish, Meat",Fruits,"Fish, Meat → Fruits",0.2673,0.7787,1.5853
 Mid value,Fruits,"Fish, Meat","Fruits → Fish, Meat",0.2673,0.5442,1.5853
 Mid value,"Fish, Gold, Sweets",Meat,"Fish, Gold, Sweets → Meat",0.1642,0.7806,1.5849
 Mid value,"Gold, Meat","Fruits, Sweets","Gold, Meat → Fruits, Sweets",0.1628,0.5581,1.576
-Mid value,Fruits,"Meat, Sweets","Fruits → Meat, Sweets",0.2524,0.5138,1.5713
 Mid value,"Meat, Sweets",Fruits,"Meat, Sweets → Fruits",0.2524,0.7718,1.5713
+Mid value,Fruits,"Meat, Sweets","Fruits → Meat, Sweets",0.2524,0.5138,1.5713
 Mid value,"Gold, Meat, Sweets",Fish,"Gold, Meat, Sweets → Fish",0.1642,0.7756,1.5662
 Mid value,"Gold, Meat, Sweets",Fruits,"Gold, Meat, Sweets → Fruits",0.1628,0.7692,1.5661
 Mid value,"Fruits, Gold",Fish,"Fruits, Gold → Fish",0.2144,0.7745,1.5639
@@ -125,8 +125,8 @@ Mid value,"Gold, Sweets",Fish,"Gold, Sweets → Fish",0.2103,0.7488,1.5119
 Mid value,Fruits,Fish,Fruits → Fish,0.3677,0.7486,1.5116
 Mid value,Fish,Fruits,Fish → Fruits,0.3677,0.7425,1.5116
 Mid value,"Gold, Meat","Fish, Fruits","Gold, Meat → Fish, Fruits",0.1601,0.5488,1.4926
-Mid value,Fish,Sweets,Fish → Sweets,0.3514,0.7096,1.4899
 Mid value,Sweets,Fish,Sweets → Fish,0.3514,0.7379,1.4899
+Mid value,Fish,Sweets,Fish → Sweets,0.3514,0.7096,1.4899
 Mid value,"Fish, Gold",Meat,"Fish, Gold → Meat",0.2008,0.7327,1.4875
 Mid value,"Sweets, Wines",Fruits,"Sweets, Wines → Fruits",0.1615,0.7301,1.4863
 Mid value,"Fruits, Wines",Fish,"Fruits, Wines → Fish",0.1723,0.7341,1.4823
@@ -138,11 +138,11 @@ Mid value,"Sweets, Wines",Fish,"Sweets, Wines → Fish",0.1588,0.7178,1.4493
 Mid value,Meat,"Fruits, Sweets","Meat → Fruits, Sweets",0.2524,0.5124,1.4469
 Mid value,"Fruits, Sweets",Meat,"Fruits, Sweets → Meat",0.2524,0.7126,1.4469
 Mid value,"Fruits, Wines",Sweets,"Fruits, Wines → Sweets",0.1615,0.6879,1.4443
-Mid value,Meat,Fish,Meat → Fish,0.3433,0.697,1.4073
 Mid value,Fish,Meat,Fish → Meat,0.3433,0.6932,1.4073
+Mid value,Meat,Fish,Meat → Fish,0.3433,0.697,1.4073
 Mid value,"Fish, Wines",Sweets,"Fish, Wines → Sweets",0.1588,0.6686,1.4038
-Mid value,Meat,Sweets,Meat → Sweets,0.327,0.6639,1.394
 Mid value,Sweets,Meat,Sweets → Meat,0.327,0.6866,1.394
+Mid value,Meat,Sweets,Meat → Sweets,0.327,0.6639,1.394
 Mid value,"Gold, Meat",Fish,"Gold, Meat → Fish",0.2008,0.6884,1.3899
 Mid value,"Gold, Meat",Fruits,"Gold, Meat → Fruits",0.1981,0.6791,1.3825
 Mid value,"Gold, Wines",Meat,"Gold, Wines → Meat",0.1764,0.6736,1.3676
@@ -179,11 +179,11 @@ High value,"Fish, Gold",Sweets,"Fish, Gold → Sweets",0.1805,0.6364,1.2814
 High value,"Fruits, Meat",Sweets,"Fruits, Meat → Sweets",0.1805,0.6364,1.2814
 High value,Fruits,Fish,Fruits → Fish,0.3121,0.6389,1.2795
 High value,Fish,Fruits,Fish → Fruits,0.3121,0.625,1.2795
-High value,Fruits,Sweets,Fruits → Sweets,0.308,0.6306,1.2697
 High value,Sweets,Fruits,Sweets → Fruits,0.308,0.6202,1.2697
+High value,Fruits,Sweets,Fruits → Sweets,0.308,0.6306,1.2697
 High value,"Fruits, Gold",Sweets,"Fruits, Gold → Sweets",0.1682,0.6263,1.2611
 High value,"Fish, Meat",Sweets,"Fish, Meat → Sweets",0.1886,0.6233,1.2552
 High value,"Fish, Fruits",Gold,"Fish, Fruits → Gold",0.19,0.6087,1.2427
 High value,"Fish, Meat",Fruits,"Fish, Meat → Fruits",0.1832,0.6054,1.2393
-High value,Fish,Meat,Fish → Meat,0.3026,0.606,1.2136
 High value,Meat,Fish,Meat → Fish,0.3026,0.606,1.2136
+High value,Fish,Meat,Fish → Meat,0.3026,0.606,1.2136

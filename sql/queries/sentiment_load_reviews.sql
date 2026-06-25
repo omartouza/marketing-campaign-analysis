@@ -9,4 +9,4 @@ SELECT
 FROM reviews
 WHERE review_text IS NOT NULL
   AND TRIM(review_text) != ''
-ORDER BY RANDOM()
+ORDER BY md5(review_text || COALESCE(review_title, '') || COALESCE(product_name, ''))

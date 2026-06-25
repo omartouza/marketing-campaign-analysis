@@ -1,10 +1,10 @@
 actual,predicted,count,model
-Negative,Negative,260,Logistic Regression
-Negative,Neutral,28,Logistic Regression
-Negative,Positive,17,Logistic Regression
-Neutral,Negative,23,Logistic Regression
-Neutral,Neutral,146,Logistic Regression
-Neutral,Positive,58,Logistic Regression
-Positive,Negative,165,Logistic Regression
-Positive,Neutral,264,Logistic Regression
-Positive,Positive,4173,Logistic Regression
+Negative,Negative,248,Logistic Regression
+Negative,Neutral,35,Logistic Regression
+Negative,Positive,22,Logistic Regression
+Neutral,Negative,19,Logistic Regression
+Neutral,Neutral,164,Logistic Regression
+Neutral,Positive,44,Logistic Regression
+Positive,Negative,148,Logistic Regression
+Positive,Neutral,273,Logistic Regression
+Positive,Positive,4181,Logistic Regression

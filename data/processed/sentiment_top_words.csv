@@ -1,46 +1,46 @@
 sentiment,rank,word,tfidf_score
-Negative,1,batteri,0.0639
-Negative,2,last,0.049
-Negative,3,dont,0.0332
-Negative,4,long,0.0254
-Negative,5,week,0.0238
-Negative,6,work,0.0225
-Negative,7,dead,0.0219
-Negative,8,last long,0.0218
-Negative,9,dont last,0.0198
-Negative,10,disappoint,0.0177
-Negative,11,return,0.0172
-Negative,12,day,0.017
-Negative,13,remot,0.017
-Negative,14,charg,0.0167
-Negative,15,brand,0.0166
-Neutral,1,last,0.0338
-Neutral,2,batteri,0.0317
-Neutral,3,long,0.0312
-Neutral,4,last long,0.0288
-Neutral,5,good,0.028
-Neutral,6,tablet,0.027
-Neutral,7,dont,0.0243
-Neutral,8,work,0.0184
-Neutral,9,seem,0.0158
-Neutral,10,duracel,0.0157
-Neutral,11,app,0.0154
-Neutral,12,dont last,0.0151
-Neutral,13,slow,0.0136
-Neutral,14,great,0.0135
-Neutral,15,kid,0.0129
+Negative,1,batteri,0.0645
+Negative,2,last,0.0496
+Negative,3,dont,0.0345
+Negative,4,long,0.0261
+Negative,5,week,0.0237
+Negative,6,work,0.0224
+Negative,7,last long,0.0223
+Negative,8,dead,0.0209
+Negative,9,dont last,0.0207
+Negative,10,return,0.0178
+Negative,11,brand,0.0175
+Negative,12,disappoint,0.0175
+Negative,13,day,0.0168
+Negative,14,remot,0.0166
+Negative,15,charg,0.0163
+Neutral,1,last,0.0336
+Neutral,2,batteri,0.0325
+Neutral,3,long,0.0309
+Neutral,4,last long,0.0279
+Neutral,5,good,0.0267
+Neutral,6,tablet,0.0252
+Neutral,7,dont,0.0245
+Neutral,8,work,0.0192
+Neutral,9,dont last,0.0156
+Neutral,10,seem,0.0152
+Neutral,11,duracel,0.014
+Neutral,12,app,0.0138
+Neutral,13,kid,0.0137
+Neutral,14,slow,0.0137
+Neutral,15,great,0.0134
 Positive,1,great,0.0417
 Positive,2,batteri,0.0345
-Positive,3,love,0.0307
-Positive,4,good,0.0288
+Positive,3,love,0.0308
+Positive,4,good,0.0296
 Positive,5,tablet,0.0275
-Positive,6,work,0.0242
-Positive,7,easi,0.0175
-Positive,8,kid,0.0155
-Positive,9,kindl,0.0141
-Positive,10,last,0.014
-Positive,11,long,0.0129
-Positive,12,brand,0.0125
-Positive,13,read,0.0119
+Positive,6,work,0.0241
+Positive,7,easi,0.0174
+Positive,8,kid,0.0152
+Positive,9,last,0.0141
+Positive,10,kindl,0.014
+Positive,11,long,0.0131
+Positive,12,brand,0.0124
+Positive,13,read,0.0121
 Positive,14,old,0.0119
-Positive,15,year,0.0116
+Positive,15,time,0.0117

@@ -1,4 +1,4 @@
 clv_tier,customer_count,rules_found,top_rule,top_lift
-Low value,738,55,"Fruits → Fish, Gold",1.85
-Mid value,737,108,"Fish, Sweets → Fruits, Meat",1.87
+Low value,738,55,"Fish, Gold → Fruits",1.85
+Mid value,737,108,"Fruits, Meat → Fish, Sweets",1.87
 High value,737,25,"Gold, Sweets → Fish",1.42
